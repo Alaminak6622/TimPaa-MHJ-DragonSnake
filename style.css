@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  text-align: center;
+  background: linear-gradient(to top, #0a0a0a, #1a1a2e, #162447);
+  color: white;
+  overflow: hidden;
+}
+
+#dashboard {
+  margin-bottom: 10px;
+}
+
+#score {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#credits {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #ffcc00;
+}
+
+canvas {
+  border: 3px solid #fff;
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(to top, #1b1b2f, #0f0f1f);
+}
+
+.dark-mode {
+  background: #000 !important;
+  color: #00ff00 !important;
+}
